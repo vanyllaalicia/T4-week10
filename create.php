@@ -1,6 +1,6 @@
 <?php include 'config/database.php'; ?>
 
-<?php
+<?php 
 if (isset($_POST['simpan'])) {
     mysqli_query($conn, "INSERT INTO buku 
     (judul, pengarang, penerbit, tahun_terbit, stok) VALUES (

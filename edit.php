@@ -4,7 +4,7 @@
 $id = $_GET['id'];
 $data = mysqli_query($conn, "SELECT * FROM buku WHERE id='$id'");
 $d = mysqli_fetch_assoc($data);
-
+ 
 if (isset($_POST['update'])) {
     mysqli_query($conn, "UPDATE buku SET
         judul='$_POST[judul]',

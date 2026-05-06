@@ -1,6 +1,6 @@
 CREATE DATABASE perpustakaan_db;
 USE perpustakaan_db;
-
+ 
 CREATE TABLE buku (
     id INT AUTO_INCREMENT PRIMARY KEY,
     judul VARCHAR(150) NOT NULL,

@@ -18,7 +18,7 @@ Aplikasi CRUD (Create, Read, Update, Delete) menggunakan PHP, MySQL, dan Bootstr
 3. Buka browser ke `http://localhost/T4-week10/`
 
 ## Screenshot
-
+  
 ### Daftar Data
 
 ![Index](screenshot/index.jpeg)
